@@ -34,7 +34,7 @@ Usage
         zkConnectionString: 'localhost:2181',
         zkLiveNodes: '/live_nodes',
         solrProtocol: 'http',
-        solrCollectionsGetEndPoint: '/admin/collections?action=LIST',
+        solrCollectionsGetEndPoint: '/admin/collections?action=LIST&wt=json',
         ssh: {},
         // Passed verbatim to node-zookeeper-client
         zk: {
